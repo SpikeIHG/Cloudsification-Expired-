@@ -1,6 +1,9 @@
 # Cloudsification
-cloudsfication means clouds identification
+## cloudsfication means clouds identification
 
+An app to help record and identify the clouds 
+
+```
 .
 ├── LICENSE
 ├── README.md
@@ -9,3 +12,5 @@ cloudsfication means clouds identification
 └── utils 
     ├── CMakeLists.txt
     └── generator.cc 
+
+```
