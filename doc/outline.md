@@ -14,3 +14,10 @@
   * app ? web ? 小程序 ?
   * 实现语言 ? java ? c ++ ? c # ?
   * 平台 ？ android studio unity ？
+* ### 内部功能
+  * 徽章功能
+  * 历史记录保留
+  * 能否提供卫星云图的接口
+  * 一些云朵识别wiki
+* ### 开发工具
+  * 目前看来是用java 和 android studio 可以了解 kotlin 和 react native ？
