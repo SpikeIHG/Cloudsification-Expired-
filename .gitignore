@@ -1,0 +1,51 @@
+# Gradle files
+.gradle/
+build/
+**/build/
+*.iml
+*.hprof
+
+# Local configuration files
+local.properties
+*.jks
+
+# Android Studio files
+.idea/
+*.ipr
+*.iws
+*.log
+captures/
+.externalNativeBuild/
+.cxx/
+
+# User-specific configurations
+*.hprof
+*.orig
+
+# Kotlin files
+*.class
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Other files
+*.apk
+*.ap_
+*.dex
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.tgz
+*.7z
+
+# Miscellaneous
+*.log
+*.tmp
+*.temp
