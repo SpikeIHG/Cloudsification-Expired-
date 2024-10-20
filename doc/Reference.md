@@ -12,10 +12,11 @@
 ## Overview
 ![](./image/1.jpg)
 
+### 10/30
 ```
 任务与技术细节
 基础 ：
-  1. image卡片设计————要求
+  1. image卡片设计————要求              
     （1） 自定义细节 
           a. 分类tag 默认自定义导入 识别结果 可以自定义  或者按照自己的类别分类
           b. location 用户自己填入吧 不获取地理位置 时间，这个可以填入 也可以修改
@@ -37,10 +38,10 @@
 *   ref: [滑动布局](https://github.com/yqritc/RecyclerView-MultipleViewTypesAdapter)
 *   ref: [布局](https://github.com/magiepooh/RecyclerItemDecoration)
 *   ref : [这里有一个奇怪的布局](https://github.com/flavienlaurent/discrollview)
-*   ref : [](https://github.com/nirukk52/SnapTabLayout)
+*   ref : [一个替代的tabbar](https://github.com/nirukk52/SnapTabLayout)
 *   
 *   其他资料 可以搜搜更多的 recycleview
-
+### 11/4
 ```
   2. wiki设计
     （1）. 布局
@@ -51,7 +52,7 @@
     （4）.  国际云图实时的api 有可能获得吗
 ```
 * ref [一个fragment](https://github.com/magic-goop/tag-sphere)
-
+### 10/30
 ```
   3. 创建按钮 button
   (1). 创建 然后分为拍照和导入
@@ -60,11 +61,12 @@
 ```
 *  ref : 权限申请 动态权限申请 视频有讲
 *  ref :[基本的button](https://github.com/futuresimple/android-floating-action-button)
-
+*  ref :[可以参考的button](https://github.com/oguzbilgener/CircularFloatingActionMenu)
+### 11/4
 ```
   4. 快捷方式 ———— 视频里有 工作量一般 可写
 ```
-
+### 11/10
 ```
   5 ，导航切换方式
     两种 就像图片里的 一种是最初计划 另外一种 是 as原生的navigation
@@ -75,8 +77,10 @@
   (1) blur 查看图片 blur
   (2) refresh效果
   (3) 一些可爱的小动画 maybe
+  (4) 初始启动的页面，想要使用最近看的一部电影里面的一个截图的风格 
+  7. 内置搜索功能 这个有点茫然 看时间和工作量把
 ```
-
+* ref :[选择照片的一个framework](https://github.com/ChiliLabs/ChiliPhotoPicker)
 ```
  Badge wall 徽章墙 一些小东西 比如说集齐所有大种类的云 比如发现某些稀有云朵 属于一个小拓展
 ```
