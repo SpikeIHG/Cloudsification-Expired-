@@ -12,6 +12,11 @@
 ## Overview
 ![](./image/1.jpg)
 
+
+## 矢量图下载网站 svg
+[](https://www.freepik.com/search?format=search&freeSvg=free&iconType=standard&last_filter=query&last_value=physics&query=physics&type=icon)
+
+
 ### 10/30
 ```
 任务与技术细节
@@ -79,8 +84,81 @@
   (3) 一些可爱的小动画 maybe
   (4) 初始启动的页面，想要使用最近看的一部电影里面的一个截图的风格 
   7. 内置搜索功能 这个有点茫然 看时间和工作量把
+  8. 引导页 与 启动不一样 可以考虑实现 就是一个 viewpager 并且视频有讲
 ```
 * ref :[选择照片的一个framework](https://github.com/ChiliLabs/ChiliPhotoPicker)
 ```
  Badge wall 徽章墙 一些小东西 比如说集齐所有大种类的云 比如发现某些稀有云朵 属于一个小拓展
 ```
+### 11/04
+* 需要的文字素材 和 图片素材 
+
+### fragment知识点总结
+#### 静态注册 就是一个布局xml 可以快捷键创建
+* 生命周期 健壮性问题
+  * attach 关联到activity
+  * oncreate  
+```
+Fragment 的生命周期与 Activity 相似，但它有自己特定的生命周期方法。理解这些方法对管理 Fragment 的行为至关重要。以下是 Fragment 生命周期的主要阶段及其对应的方法：
+
+1. 创建阶段
+onAttach(Context context): 当 Fragment 与 Activity 关联时调用。在这里，你可以访问宿主 Activity 的上下文。
+
+onCreate(Bundle savedInstanceState): 在 Fragment 被创建时调用。你可以在这里进行初始化操作，比如设置保存的状态。
+
+2. 视图创建阶段
+onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState): 创建 Fragment 的用户界面视图。你在这里返回布局视图，通常使用 inflater 来加载 XML 布局。
+
+onViewCreated(View view, Bundle savedInstanceState): 在视图创建后调用，此时可以对视图进行初始化（例如，设置适配器、点击监听等）。
+
+3. 可见性阶段
+onStart(): 当 Fragment 可见时调用。此时可以启动动画或加载数据。
+
+onResume(): 当 Fragment 与用户交互时调用。在这里可以执行任何需要在 Fragment 活动期间保持的操作（例如，监听器或传感器）。
+
+4. 暂停和停止阶段
+onPause(): 当 Fragment 不再与用户交互时调用。此时可以保存数据或停止动画。
+
+onStop(): 当 Fragment 不再可见时调用。在这里可以释放资源或停止不必要的操作。
+
+5. 销毁阶段
+onDestroyView(): 在视图被销毁时调用。此时可以清理与视图相关的资源（例如，解除视图绑定）。
+
+onDestroy(): 在 Fragment 被销毁时调用。此时可以清理任何其他资源。
+
+onDetach(): 当 Fragment 与其宿主 Activity 解除关联时调用。此时可以进行最后的清理。
+
+生命周期图示
+scss
+Copy code
+   onAttach()
+      ↓
+   onCreate()
+      ↓
+   onCreateView()
+      ↓
+   onViewCreated()
+      ↓
+   onStart()
+      ↓
+   onResume()
+当用户离开 Fragment 时：
+
+scss
+Copy code
+   onPause()
+      ↓
+   onStop()
+      ↓
+   onDestroyView()
+      ↓
+   onDestroy()
+      ↓
+   onDetach()
+注意事项
+Fragment 的生命周期与其宿主 Activity 的生命周期相关联。当 Activity 被销毁时，Fragment 也会被销毁。
+理解生命周期方法有助于正确管理资源和状态，避免内存泄漏和其他问题。
+如果你有任何具体的问题或需要更深入的解释，请告诉我！
+```
+
+* 动态注册
