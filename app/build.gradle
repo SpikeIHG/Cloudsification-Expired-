@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.fridayof1995.sample'
+    namespace 'com.cloudsification.clouds'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.fridayof1995.sample"
+        applicationId "com.cloudsification.clouds"
         minSdk 24
         targetSdk 34
         versionCode 1
