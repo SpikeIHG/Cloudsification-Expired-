@@ -89,6 +89,7 @@
 * ref :[选择照片的一个framework](https://github.com/ChiliLabs/ChiliPhotoPicker)
 ```
  Badge wall 徽章墙 一些小东西 比如说集齐所有大种类的云 比如发现某些稀有云朵 属于一个小拓展
+ 想要加入自动定位的功能 获取经纬度 自动填上日期与经纬度
 ```
 ### 11/04
 * 需要的文字素材 和 图片素材 
