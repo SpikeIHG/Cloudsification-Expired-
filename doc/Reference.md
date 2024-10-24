@@ -163,3 +163,22 @@ Fragment 的生命周期与其宿主 Activity 的生命周期相关联。当 Act
 ```
 
 * 动态注册
+ * activity的一个地方可能会用
+  ```java
+  public class MainActivity extends ActionBarActivity {
+ 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        if(savedInstanceState == null){
+            getSupportFragmentManager().beginTransaction().add(R.id.container,new MainFragment()).commit();
+        }
+ 
+    }
+
+
+
+  ```
+
+  ## fragment replace 会销毁这些东西   
