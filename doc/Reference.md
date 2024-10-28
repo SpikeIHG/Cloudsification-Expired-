@@ -186,3 +186,4 @@ Fragment 的生命周期与其宿主 Activity 的生命周期相关联。当 Act
 ## recycler view 的详细东西 其实挺简单的 [Recyclerview](https://blog.csdn.net/huweiliyi/article/details/105779329)
 
 ## scrollview 需要添加一个下拉的这个效果吧
+## 可以添加一个卡片导出为本地图片的功能
