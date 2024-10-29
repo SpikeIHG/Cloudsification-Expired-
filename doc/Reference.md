@@ -187,3 +187,13 @@ Fragment 的生命周期与其宿主 Activity 的生命周期相关联。当 Act
 
 ## scrollview 需要添加一个下拉的这个效果吧
 ## 可以添加一个卡片导出为本地图片的功能
+
+```
+布局 —— recyclerview弹出 
+查看fragment
+数据库 Sqlite
+
+调相册 照片 该权限 清单文件 动态申请权限
+
+```
+
